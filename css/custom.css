@@ -1,0 +1,49 @@
+<style>
+.box {
+    height: 500px; /* Adjust as needed */
+    position: relative;
+    padding: 15px;
+   
+}
+
+.detail-box {
+    height: 300px; /* Adjust height as needed */
+    overflow-y: auto; /* Vertical scrollbar for overflowing content */
+    overflow-x: hidden; /* Hide horizontal scrollbar if not needed */
+    padding: 10px;
+    padding-bottom:10px;
+    
+}
+
+.short-desc {
+    margin: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.full-desc {
+    margin: 5px 0;
+    line-height: 1.5;
+    padding-bottom:5px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #ffbe33; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 8px 12px; /* Padding for the button */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+/* Hover effect */
+.read-more:hover {
+    background-color: #ffa500; /* Darker orange color on hover */
+    cursor: pointer; /* Change cursor on hover */
+    font-weight: bold; /* Bold text */
+    text-decoration: underline; /* Underline */
+}
+</style>
